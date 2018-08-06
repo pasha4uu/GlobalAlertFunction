@@ -15,6 +15,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBAction func alertTap(_ sender: Any) {
+        
+        sampleAlertAction(title: "WARNING", message: "short content available here press it ") { (true) in
+            print("action clicked")
+        }
+            }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

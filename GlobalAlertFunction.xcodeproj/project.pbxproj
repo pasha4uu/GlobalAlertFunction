@@ -14,6 +14,7 @@
 		65E090AD2118561D00EC7579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65E090AB2118561D00EC7579 /* LaunchScreen.storyboard */; };
 		65E090B82118561D00EC7579 /* GlobalAlertFunctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E090B72118561D00EC7579 /* GlobalAlertFunctionTests.swift */; };
 		65E090C32118561E00EC7579 /* GlobalAlertFunctionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E090C22118561E00EC7579 /* GlobalAlertFunctionUITests.swift */; };
+		65E090D12118569500EC7579 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E090D02118569500EC7579 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		65E090BE2118561E00EC7579 /* GlobalAlertFunctionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobalAlertFunctionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65E090C22118561E00EC7579 /* GlobalAlertFunctionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalAlertFunctionUITests.swift; sourceTree = "<group>"; };
 		65E090C42118561E00EC7579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E090D02118569500EC7579 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				65E090A22118561C00EC7579 /* AppDelegate.swift */,
 				65E090A42118561C00EC7579 /* ViewController.swift */,
+				65E090D02118569500EC7579 /* Alert.swift */,
 				65E090A62118561C00EC7579 /* Main.storyboard */,
 				65E090A92118561D00EC7579 /* Assets.xcassets */,
 				65E090AB2118561D00EC7579 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E090D12118569500EC7579 /* Alert.swift in Sources */,
 				65E090A52118561C00EC7579 /* ViewController.swift in Sources */,
 				65E090A32118561C00EC7579 /* AppDelegate.swift in Sources */,
 			);
